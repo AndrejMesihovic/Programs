@@ -11,7 +11,6 @@ public class SammysRentalPrice {
 		int hours = Integer.parseInt(input);
 		int remain = hours % MINUTES_IN_AN_HOUR;
 		hours = hours / MINUTES_IN_AN_HOUR;
-		//int remain = hours % MINUTES_IN_AN_HOUR;
 		int totalCost = 0;
 		
 		if(remain > 40)
